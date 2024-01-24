@@ -25,46 +25,42 @@
 <body>
     <header class="container w-11/12 mx-auto">
         <!-- nav section -->
-        <div class="navbar flex justify-center  text-center lg:flex-row bg-base-100">
+
+        <div class="navbar bg-base-100">
             <div class="navbar-start">
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Home</a></li>
-                            <li>
-                                <a>About</a>
-                            </li>
-                            <li><a>Pages</a></li>
-                            <li><a>Blog</a></li>
-                            <li><a>Contact</a></li>
-                        </ul>
-                    </div>
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn m-0 btn-ghost lg:hidden">
+                    <i class="fa-solid fa-bars-staggered"></i>
                 </div>
-                <a class="btn btn-ghost lg:text-5xl font-bold">Hockey<span class="text-[#FF4240]">’</span>s</a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal text-base font-semibold  px-1 text-[#424247]">
+                <ul tabindex="0" class="menu font-bold menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                     <li><a class="text-[#FF4240]">Home</a></li>
-                    <li><a>About</a></li>
+                    <li>
+                        <a>About</a>
+                    </li>
                     <li><a>Pages</a></li>
                     <li><a>Blog</a></li>
                     <li><a>Contact</a></li>
                 </ul>
+              </div>
+              <a class="btn btn-ghost text-xl lg:text-5xl font-bold">Hockey<span class="text-[#FF4240]">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu font-bold menu-horizontal px-1">
+                <li><a class="text-[#FF4240]">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+              </ul>
             </div>
             <div class="navbar-end lg:flex items-center gap-4">
                 <i class="fa-solid fa-magnifying-glass text-[#89898B]"></i>
                 <a class="btn bg-[#FF4240] text-white py-4">Get Ticket</a>
             </div>
-        </div>
+          </div>
         <!-- banner section -->
         <section>
-            <div class="flex gap-5 relative  flex-col ">
+            <div class="flex my-12 gap-5 relative  flex-col ">
                 <div class="carousel w-fullmy-10">
                     <div id="slide1" class="carousel-item relative w-full">
                         <img src="Images/1.png" class="lg:w-full" />
@@ -83,7 +79,6 @@
 
                 </div>
                 <div class="bg-black rounded-2xl p-8 lg:right-2 lg:bottom-2 lg:absolute ">
-                    <!-- <div class=" lg:absolute  right-10 top-3/4 text-white bg-black rounded-lg px-6 py-8  "> -->
                     <h1 class="text-xl text-white font-bold">Meet all the heroes from the field</h1>
                     <p class="text-sm text-[#FFFFFF99]">Field heroes unite for a common cause, exemplifying <br>
                         courage, resilience, and compassion,
@@ -173,7 +168,7 @@
                 </div>
                 <div class="hero rounded-2xl overflow-hidden" style="background-image: url(Images/4.png);">
                     <div class="hero-overlay bg-opacity-50"></div>
-                    <div class="lg:hero-content px-24 lg:pl-10 justify-start text-start text-neutral-content">
+                    <div class="lg:hero-content px-20 lg:pl-10 justify-start text-start text-neutral-content">
                         <div class="lg:px-3 text-white">
                             <h1 class="mb-5 text-xl font-bold mt-7 lg:mt-24">Teenager Program</h1>
                             <p class="mb-5 text-sm lg:mb-6">Teen Program empowers youth through mentorship and
